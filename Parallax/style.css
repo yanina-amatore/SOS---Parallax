@@ -1,0 +1,35 @@
+ 
+html,
+body {
+ height: 100%;
+  margin: 0;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  
+  /* background options work in here but not below */
+  /* color: #666;
+  background-image: url(https://picsum.photos/id/250/2500/1400) */
+}
+ 
+ .pimg1{
+  background-image: url(./pexels-anna-shevchuk-11503176.jpg);
+
+  min-height: 100%;
+  background-color: #000000; 
+  border: 1px solid #000000;
+}
+ 
+.pimg2 {
+    background-image: url(https://picsum.photos/2550/1400);
+    min-height: 400px;
+    border: 1px solid #000000;
+   
+  }
+  .pimg3 {
+    background-image: url(https://picsum.photos/2550/1400);
+    min-height: 400px;
+    border: 1px solid #000000;
+   
+  }
+   
