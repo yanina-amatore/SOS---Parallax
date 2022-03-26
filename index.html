@@ -4,65 +4,86 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./assests/css/main.css" />
-    <link rel="icon" href="./assests/img/favicon.png" />
-    <title>Landing page</title>
+    <link rel="stylesheet" href="./assests/styles/main.css" type="text/css">
+       <title>YooBee Assesment</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+       integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8="
+       crossorigin="anonymous"></script>
+    <script>
+       $(function() {
+       $(".toggle").on("click", function() {
+           if ($(".item").hasClass("active")) {
+               $(".item").removeClass("active");
+           } else {
+               $(".item").addClass("active");
+           }
+       });
+   });
+       </script>
   </head>
   <body>
-    <header>
-      <div class="header-home">
-        <nav class="nav-bar">
-        <a href="./index.html"><i class="fa-solid fa-house-chimney"></i></i> Homepage</a>
-        <a href="./recipes.html"><i class="fa-solid fa-utensils"></i> Recipes</a>
-        <!-- Contact will be in the homepage -->
-        <a href=""><i class="fa-solid fa-envelopes-bulk"></i> Contact</a>
-        <a href=""><i class="fa-solid fa-envelopes-bulk"></i> Contact</a>
-      </nav>
-     </div>
+  <header>
+   <nav>
+     <ul class="menu">
+        <li class="logo"><span>logo goes here</span></li>
+        <li class="item"><a href="./index.html"><i class="fa-solid fa-house-chimney"></i> home</a></li>
+        <li class="item"><a href="./about.html"><i class="fa-solid fa-address-card"></i> about</a></li>
+        <li class="item"><a href="./contact.html"><i class="fa-solid fa-envelopes-bulk"></i> contact</a></li>
+        <li class="item button"><a href="#">Log In</a></li>
+        <li class="item button secondary"><a href="#">Sign Up</a></li>
+        <li class="toggle"><span class="bars"></span></li>
+        </ul>
+    </nav>
   </header>
-    <main id="container-home">
-         <div class=".pimg1"> 
-           <div class="ptext">
-             <p>Parallax Website</p>
-              </span>
-            </div>
-          </div>
+<main>
+   <div class="pimg1">
+   
+      <div class="container">
+       <div class="item-container">1</div>
+       <div class="item-container">hi, i'm yanina</div>
+       <div class="item-container">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptas minima, nemo iusto amet ad labore illum ut placeat unde.</div>
+       <div class="item-container">4</div>
+       <div class="item-container">Lorem ipsum dolor sit amet.</div>
+     </div>
+   
+  </div>
          <section class="section section-light">
            <h2>Section One</h2>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eos error ullam nisi explicabo eius maxime suscipit voluptate iure ipsa! Rem ullam reprehenderit accusantium repellendus voluptate vitae voluptas itaque voluptatibus alias consequuntur. Quos debitis nulla voluptatem natus illo soluta, in vitae dolorem perferendis architecto accusantium dignissimos nam facilis excepturi voluptates, nesciunt velit dolor dicta! Est nostrum magni porro saepe quas accusantium ea, rem ad quibusdam! Quos, fuga expedita corporis dignissimos temporibus molestias quae ex minus rem esse repellendus optio labore nobis facere, dolore fugit voluptas dolor aliquam doloremque! Blanditiis velit architecto delectus at facere necessitatibus perspiciatis culpa sunt labore vel.</p>
            
          </section>
-         <div class=".pimg2"> 
+         <div class="pimg2">
           <div class="ptext">
-             <span class="border">
-               <p>Image to text</p>
+             <span class="border trans">
+              <p>section one</p>
              </span>
            </div>
          </div>
          <section class="section section-dark">
           <h2>Section two </h2>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eos error ullam nisi explicabo eius maxime suscipit voluptate iure ipsa! Rem ullam reprehenderit accusantium repellendus voluptate vitae voluptas itaque voluptatibus alias consequuntur. Quos debitis nulla voluptatem natus illo soluta, in vitae dolorem perferendis architecto accusantium dignissimos nam facilis excepturi voluptates, nesciunt velit dolor dicta! Est nostrum magni porro saepe quas accusantium ea, rem ad quibusdam! Quos, fuga expedita corporis dignissimos temporibus molestias quae ex minus rem esse repellendus optio labore nobis facere, dolore fugit voluptas dolor aliquam doloremque! Blanditiis velit architecto delectus at facere necessitatibus perspiciatis culpa sunt labore vel.</p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eos error ullam nisi explicabo eius maxime suscipit voluptate iure ipsa! Rem ullam reprehenderit accusantium repellendus voluptate vitae voluptas itaque voluptatibus alias consequuntur. Quos debitis nulla voluptatem natus illo soluta, in vitae dolorem perferendis architecto accusantium dignissimos nam facilis excepturi voluptates, nesciunt velit dolor dicta! Est nostrum magni porro saepe quas accusantium ea, rem ad quibusdam! </p>
         </section>
-        <div class=".pimg3"> 
-          <div class="ptext">
-             <span class="border">
-               <p>Image to text</p>
-             </span>
-           </div>
-         </div>
+        <div class="pimg3">
+         <div class="ptext">
+            <span class="border trans">
+              <p>Image two text</p>
+            </span>
+          </div>
+        </div>
          <section class="section section-dark">
           <h2>Section three </h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eos error ullam nisi explicabo eius maxime suscipit voluptate iure ipsa! Rem ullam reprehenderit accusantium repellendus voluptate vitae voluptas itaque voluptatibus alias consequuntur. Quos debitis nulla voluptatem natus illo soluta, in vitae dolorem perferendis architecto accusantium dignissimos nam facilis excepturi voluptates, nesciunt velit dolor dicta! Est nostrum magni porro saepe quas accusantium ea, rem ad quibusdam! Quos, fuga expedita corporis dignissimos temporibus molestias quae ex minus rem esse repellendus optio labore nobis facere, dolore fugit voluptas dolor aliquam doloremque! Blanditiis velit architecto delectus at facere necessitatibus perspiciatis culpa sunt labore vel.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi eos error ullam nisi explicabo eius maxime suscipit voluptate iure ipsa! Rem ullam reprehenderit accusantium repellendus voluptate vitae voluptas itaque voluptatibus alias consequuntur. Quos debitis nulla voluptatem natus illo soluta, in vitae dolorem perferendis architecto accusantium dignissimos nam facilis excepturi voluptates, nesciunt velit dolor dicta! Est nostrum magni porro saepe quas accusantium ea, rem ad quibusdam!.</p>
           </one>
-          <div class=".pimg1"> 
+         </section>
+          
+           <div class="pimg4">
             <div class="ptext">
                <span class="border">
-                 <p>Image to text</p>
+                 <p>contact</p>
                </span>
              </div>
            </div>
-      
-    </main>
-    <footer></footer>
+          </main>
+    
   </body>
 </html>
