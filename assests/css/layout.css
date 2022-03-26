@@ -1,0 +1,28 @@
+* {
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100vh;
+}
+.header-home,
+.header-recipes {
+  background-color: #070707;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-home {
+  /* width: 100vw;
+  height: 80vh; */
+  margin: 0 auto;
+  border: 5px solid #bbff00cc;
+}
+
+
+
+

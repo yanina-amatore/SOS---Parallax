@@ -1,0 +1,22 @@
+
+*{
+ font-family: 'Roboto', sans-serif, helvetica, arial, sans-serif; 
+ font-weight: 400;
+}
+
+.nav-bar a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: rgb(250, 250, 250);
+    margin: 10px 80px;    
+    font-size: 1.2em;
+}
+
+
+.header-home .nav-bar a:hover {
+    color: rgb(221, 82, 82);
+ }
+
+.header-recipes .nav-bar a:hover {
+  color: rgb(221, 82, 82);
+}
